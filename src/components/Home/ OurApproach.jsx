@@ -45,7 +45,7 @@ export default function OurApproach() {
             At Anand Yatra, we believe travel should feel effortless, clear, and
             perfectly organized. Our team takes complete responsibility for
             planning your entire journey from booking your travel tickets to
-            arranging hotels or homestays ensuring a seamless and stress-free
+            arranging hotels or homestays ensuring a seamless and stress free
             experience from start to finish.
           </p>
         </motion.div>
@@ -56,7 +56,7 @@ export default function OurApproach() {
           {[
             {
               icon: <FaClipboardList />,
-              title: "End-to-End Travel Planning",
+              title: "End to End Travel Planning",
               desc: `We manage every detail of your journey so you never have to
               coordinate multiple bookings or worry about what comes next.`,
             },
