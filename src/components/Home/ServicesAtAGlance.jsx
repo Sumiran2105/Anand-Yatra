@@ -12,7 +12,7 @@ export default function ServicesAtAGlance() {
           </h2>
           <p className="text-base sm:text-lg text-gray-600">
             From planning to coordination, we manage every aspect of your journey
-            so travel feels effortless and well-organized.
+            so travel feels effortless and well organized.
           </p>
         </div>
 
@@ -54,7 +54,6 @@ export default function ServicesAtAGlance() {
     </section>
   );
 }
-
 function ServiceCard({ icon, title, desc }) {
   return (
     <div className="group bg-white/70 backdrop-blur-xl rounded-3xl 
