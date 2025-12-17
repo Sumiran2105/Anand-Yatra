@@ -44,8 +44,8 @@ export default function OurApproach() {
           <p className="mt-10 text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed">
             At Anand Yatra, we believe travel should feel effortless, clear, and
             perfectly organized. Our team takes complete responsibility for
-            planning your entire journey — from booking your travel tickets to
-            arranging hotels or homestays — ensuring a seamless and stress-free
+            planning your entire journey from booking your travel tickets to
+            arranging hotels or homestays ensuring a seamless and stress-free
             experience from start to finish.
           </p>
         </motion.div>
