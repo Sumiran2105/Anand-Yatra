@@ -1,0 +1,586 @@
+{
+  "goa-premium": {
+    "id": "goa-premium",
+    "title": "Goa Premium Beach Escape",
+    "destination": "Goa",
+    "price": 23999,
+    "days": 4,
+    "nights": 3,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "October - March",
+    "includes": [
+      "3-Star Beach Resort Stay",
+      "Breakfast Included",
+      "Airport Pickup & Drop",
+      "North Goa Sightseeing",
+      "South Goa Sightseeing"
+    ],
+    "exclusions": [
+      "Lunch & Dinner",
+      "Personal Expenses",
+      "Water Sports Fees"
+    ],
+    "itinerary": [
+      "Day 1: Arrival, Calangute Beach & Night Market",
+      "Day 2: North Goa Tour – Baga, Aguada Fort & Anjuna",
+      "Day 3: South Goa Tour – Miramar, Basilica, Dona Paula",
+      "Day 4: Checkout & Drop to Airport"
+    ]
+  },
+
+  "goa-budget": {
+    "id": "goa-budget",
+    "title": "Goa Budget Getaway",
+    "destination": "Goa",
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1516118037531-5be9c5c0c7b7?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "October - February",
+    "includes": [
+      "2-Star Hotel Stay",
+      "Breakfast",
+      "North Goa Group Tour"
+    ],
+    "exclusions": ["Airport Transfer", "Entry Tickets"],
+    "itinerary": [
+      "Day 1: Arrival & Calangute",
+      "Day 2: North Goa Group Tour",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "varkala-escape": {
+    "id": "varkala-escape",
+    "title": "Varkala Cliff Escape",
+    "destination": "Varkala Beach",
+    "price": 15999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1600677686887-90e299c732cd?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "November - March",
+    "includes": [
+      "Cliff Resort Stay",
+      "Breakfast Included",
+      "Sightseeing Tour"
+    ],
+    "exclusions": ["Train/Air Tickets"],
+    "itinerary": [
+      "Day 1: Arrival, Cliff Walk, Sunset Point",
+      "Day 2: Beach & Varkala Local Sightseeing",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "gokarna-backpack": {
+    "id": "gokarna-backpack",
+    "title": "Gokarna Backpackers Trip",
+    "destination": "Gokarna",
+    "price": 9999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1518684079-08d3abbc9a17",
+    "bestTime": "Oct - Feb",
+    "includes": [
+      "Beach Camp Stay",
+      "Breakfast",
+      "Beach Trek"
+    ],
+    "exclusions": ["Meals", "Transport"],
+    "itinerary": [
+      "Day 1: Arrival + Kudle Beach",
+      "Day 2: Gokarna Beach Trek",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "pondy-weekend": {
+    "id": "pondy-weekend",
+    "title": "Pondicherry Weekend Escape",
+    "destination": "Pondicherry",
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "bestTime": "Oct - April",
+    "includes": ["Hotel Stay", "Breakfast", "Beach Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: French Town Walk + Rock Beach",
+      "Day 2: Paradise Beach + Checkout"
+    ]
+  },
+
+  "andaman-premium": {
+    "id": "andaman-premium",
+    "title": "Andaman Blue Paradise",
+    "destination": "Andaman",
+    "price": 42999,
+    "days": 5,
+    "nights": 4,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1537956384450-7e56c01cc0f2",
+    "bestTime": "Nov - April",
+    "includes": [
+      "4-Star Hotels",
+      "Breakfast",
+      "Havelock Visit",
+      "Cruise Tickets"
+    ],
+    "exclusions": ["Water Sports"],
+    "itinerary": [
+      "Day 1: Port Blair",
+      "Day 2: Havelock Island",
+      "Day 3: Radha Nagar Beach",
+      "Day 4: Neil Island",
+      "Day 5: Checkout"
+    ]
+  },
+
+  "andaman-honeymoon": {
+    "id": "andaman-honeymoon",
+    "title": "Romantic Andaman Honeymoon",
+    "destination": "Andaman",
+    "price": 49999,
+    "days": 5,
+    "nights": 4,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1537956384450-7e56c01cc0f2",
+    "bestTime": "Dec - March",
+    "includes": [
+      "Candlelight Dinner",
+      "Decorated Room",
+      "Beach Photoshoot"
+    ],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival",
+      "Day 2: Elephant Beach",
+      "Day 3: Havelock",
+      "Day 4: Neil",
+      "Day 5: Checkout"
+    ]
+  },
+
+  "alibaug-weekend": {
+    "id": "alibaug-weekend",
+    "title": "Alibaug Weekend Trip",
+    "destination": "Alibaug",
+    "price": 6999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98",
+    "bestTime": "Nov - Feb",
+    "includes": ["Resort Stay", "Breakfast"],
+    "exclusions": ["Transport"],
+    "itinerary": [
+      "Day 1: Varsoli Beach",
+      "Day 2: Alibaug Fort + Checkout"
+    ]
+  },
+
+  "digha-relax": {
+    "id": "digha-relax",
+    "title": "Digha Beach Retreat",
+    "destination": "Digha",
+    "price": 7999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1474511014058-0b41ebf9dbd5",
+    "bestTime": "Dec - Feb",
+    "includes": ["Hotel", "Breakfast"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Old Digha Beach",
+      "Day 2: New Digha Sea Bridge"
+    ]
+  },
+
+  "kovalam-escape": {
+    "id": "kovalam-escape",
+    "title": "Kovalam Beach Escape",
+    "destination": "Kovalam",
+    "price": 13999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439",
+    "bestTime": "Oct - March",
+    "includes": ["Hotel Stay", "Breakfast", "Lighthouse Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival + Lighthouse Beach",
+      "Day 2: Kovalam City Tour",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "manali-adventure": {
+    "id": "manali-adventure",
+    "title": "Manali Adventure Expedition",
+    "destination": "Manali",
+    "price": 18999,
+    "days": 5,
+    "nights": 4,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "March - June & Oct - January",
+    "includes": [
+      "4 Nights Stay",
+      "Breakfast + Dinner",
+      "Rohtang / Atal Tunnel Visit",
+      "Solang Valley Adventures",
+      "Private Cab"
+    ],
+    "exclusions": ["Adventure Activity Charges"],
+    "itinerary": [
+      "Day 1: Arrival & Mall Road",
+      "Day 2: Solang Valley Adventure",
+      "Day 3: Atal Tunnel & Rohtang (If open)",
+      "Day 4: Kullu & Naggar Castle",
+      "Day 5: Checkout"
+    ]
+  },
+
+  "shimla-classic": {
+    "id": "shimla-classic",
+    "title": "Shimla Classic Retreat",
+    "destination": "Shimla",
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306",
+    "bestTime": "March - July",
+    "includes": ["Hotel Stay", "Breakfast", "Shimla Local Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Mall Road",
+      "Day 2: Kufri Trip",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "darjeeling-tea": {
+    "id": "darjeeling-tea",
+    "title": "Darjeeling Tea Garden Tour",
+    "destination": "Darjeeling",
+    "price": 14999,
+    "days": 4,
+    "nights": 3,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1587486913049-3998a0238baf",
+    "bestTime": "Sept - June",
+    "includes": ["Resort Stay", "Breakfast", "Tea Garden Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Tiger Hill",
+      "Day 2: Tea Gardens",
+      "Day 3: Rock Garden",
+      "Day 4: Checkout"
+    ]
+  },
+
+  "gangtok-mountain": {
+    "id": "gangtok-mountain",
+    "title": "Gangtok Mountain Escape",
+    "destination": "Gangtok",
+    "price": 19999,
+    "days": 4,
+    "nights": 3,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1545642084-3f5d67ce2772",
+    "bestTime": "Sept - May",
+    "includes": ["Hotel", "Breakfast", "Tsomgo Lake Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: MG Road",
+      "Day 2: Tsomgo Lake",
+      "Day 3: Local Sightseeing",
+      "Day 4: Checkout"
+    ]
+  },
+
+  "ladakh-expedition": {
+    "id": "ladakh-expedition",
+    "title": "Ladakh Expedition Adventure",
+    "destination": "Leh-Ladakh",
+    "price": 34999,
+    "days": 6,
+    "nights": 5,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "bestTime": "May - Sept",
+    "includes": ["Hotel", "Breakfast", "Pangong Lake"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Leh Acclimatization",
+      "Day 2: Nubra Valley",
+      "Day 3: Pangong Lake",
+      "Day 4: Diskit Monastery",
+      "Day 5: Leh Local",
+      "Day 6: Checkout"
+    ]
+  },
+
+  "nainital-family": {
+    "id": "nainital-family",
+    "title": "Nainital Family Retreat",
+    "destination": "Nainital",
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+    "bestTime": "March - June",
+    "includes": ["Hotel Stay", "Breakfast", "Lake Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Naini Lake",
+      "Day 2: Snow View Point",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "coorg-retreat": {
+    "id": "coorg-retreat",
+    "title": "Coorg Nature Retreat",
+    "destination": "Coorg",
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1505482142310-2309e2c0f1b0",
+    "bestTime": "Nov - April",
+    "includes": ["Resort Stay", "Breakfast", "Plantation Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival",
+      "Day 2: Coffee Plantations",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "munnar-hills": {
+    "id": "munnar-hills",
+    "title": "Munnar Hill Vacation",
+    "destination": "Munnar",
+    "price": 15999,
+    "days": 4,
+    "nights": 3,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "bestTime": "Sept - March",
+    "includes": ["Hotel", "Breakfast", "Tea Gardens Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival",
+      "Day 2: Tea Gardens",
+      "Day 3: Mattupetty Dam",
+      "Day 4: Checkout"
+    ]
+  },
+
+  "haridwar-spiritual": {
+    "id": "haridwar-spiritual",
+    "title": "Haridwar & Rishikesh Spiritual Circuit",
+    "destination": "Haridwar",
+    "price": 9999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1585499226549-89d08f85aa71?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "October - April",
+    "includes": ["Aarti Ceremony", "Sightseeing", "Accommodation"],
+    "exclusions": ["Meals"],
+    "itinerary": [
+      "Day 1: Arrival & Ganga Aarti",
+      "Day 2: Rishikesh Sights & Temples",
+      "Day 3: Checkout"
+    ]
+    
+  }, 
+
+  "varanasi-heritage": {
+    "id": "varanasi-heritage",
+    "title": "Varanasi Heritage Tour",
+    "destination": "Varanasi",
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1532370405320-1f4b6cbebf80",
+    "bestTime": "Oct - March",
+    "includes": ["Hotel Stay", "Ganga Boat Ride", "Temple Tour"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Ghat Visit",
+      "Day 2: Kashi Vishwanath Temple",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "rishikesh-meditation": {
+    "id": "rishikesh-meditation",
+    "title": "Rishikesh Meditation Retreat",
+    "destination": "Rishikesh",
+    "price": 13999,
+    "days": 4,
+    "nights": 3,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+    "bestTime": "Oct - March",
+    "includes": ["Ashram Stay", "Yoga Sessions", "Meditation"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Ashram Check-in",
+      "Day 2: Yoga & Riverbank Visit",
+      "Day 3: Meditation Workshop",
+      "Day 4: Checkout"
+    ]
+  },
+
+  "tirupati-darshan": {
+    "id": "tirupati-darshan",
+    "title": "Tirupati Balaji Darshan",
+    "destination": "Tirupati",
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1550565075-25a5b51faad0",
+    "bestTime": "All Year",
+    "includes": ["Darshan Tickets", "Hotel", "Breakfast"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Tirupati Balaji Darshan",
+      "Day 2: Local Temple Tour"
+    ]
+  },
+
+  "kedarnath-yatra": {
+    "id": "kedarnath-yatra",
+    "title": "Kedarnath Yatra Package",
+    "destination": "Kedarnath",
+    "price": 18999,
+    "days": 5,
+    "nights": 4,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1551882547-b23363f1b822",
+    "bestTime": "April - June",
+    "includes": ["Transport", "Stay", "Darshan"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Haridwar",
+      "Day 2: Guptkashi",
+      "Day 3: Kedarnath",
+      "Day 4: Return",
+      "Day 5: Departure"
+    ]
+  },
+
+  "vaishnodevi-tour": {
+    "id": "vaishnodevi-tour",
+    "title": "Vaishno Devi Temple Yatra",
+    "destination": "Vaishno Devi",
+    "price": 9999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1513091293890-c0be6ec9f9ac",
+    "bestTime": "Oct - April",
+    "includes": ["Hotel", "Temple Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Katra",
+      "Day 2: Yatra",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "shirdi-darshan": {
+    "id": "shirdi-darshan",
+    "title": "Shirdi Sai Darshan",
+    "destination": "Shirdi",
+    "price": 6999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1524493021633-8b8c5c57f9d4",
+    "bestTime": "Oct - March",
+    "includes": ["Hotel", "Sai Baba Temple"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Sai Darshan",
+      "Day 2: Checkout"
+    ]
+  },
+
+  "amritsar-golden": {
+    "id": "amritsar-golden",
+    "title": "Golden Temple Experience",
+    "destination": "Amritsar",
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1545249390-3ec3e252a94b",
+    "bestTime": "Oct - Feb",
+    "includes": ["Hotel", "Golden Temple Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Golden Temple",
+      "Day 2: Wagah Border",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "ooty-family": {
+    "id": "ooty-family",
+    "title": "Ooty Family Delight",
+    "destination": "Ooty",
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "September - June",
+    "includes": [
+      "2 Nights Hotel Stay",
+      "Breakfast",
+      "Ooty Lake",
+      "Botanical Garden Tour"
+    ],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival & Ooty Lake",
+      "Day 2: Botanical Garden & Doddabetta",
+      "Day 3: Checkout"
+    ]
+  },
+
+  "jog-waterfalls": {
+    "id": "jog-waterfalls",
+    "title": "Jog Falls Exploration",
+    "destination": "Jog Waterfalls",
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1500622944204-b135684e99fd?auto=format&fit=crop&w=800&q=90",
+    "bestTime": "August - December",
+    "includes": ["Hotel Stay", "Breakfast", "Falls Visit"],
+    "exclusions": ["Transport"],
+    "itinerary": [
+      "Day 1: Arrival & Jog Falls",
+      "Day 2: Local Viewpoints & Checkout"
+    ]
+  }
+}

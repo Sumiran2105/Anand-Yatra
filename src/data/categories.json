@@ -1,0 +1,22 @@
+[
+  {
+    "id": "beach",
+    "name": "Beaches",
+    "image": "https://i.ibb.co/3pZQ0Kx/beach1.jpg"
+  },
+  {
+    "id": "hills",
+    "name": "Hill Stations",
+    "image": "https://i.ibb.co/6g4pLQ6/hill1.jpg"
+  },
+  {
+    "id": "spiritual",
+    "name": "Spiritual",
+    "image": "https://i.ibb.co/4Y8fyhn/spiritual1.jpg"
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure",
+    "image": "https://i.ibb.co/F77F6bn/adventure1.jpg"
+  }
+]

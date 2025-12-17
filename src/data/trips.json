@@ -1,0 +1,207 @@
+{
+  "goa-premium": {
+    "id": "goa-premium",
+    "title": "Goa Premium Luxury Escape",
+    "destination": "Goa",
+    "image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/04/27/1126/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.jpg/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.16x9.jpg?imwidth=1920",
+    "price": 24999,
+    "originalPrice": 34999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "4-Star Luxury Resort",
+      "Private Airport Transfers",
+      "North & South Goa Sightseeing",
+      "Sunset at Calangute"
+    ],
+    "inclusions": [
+      "Breakfast Buffet",
+      "Private Cab for Tours",
+      "Stay in Luxury Resort"
+    ],
+    "exclusions": [
+      "Water Sports",
+      "Lunch & Dinner"
+    ],
+    "itinerary": [
+      "Day 1: Arrival + Calangute Beach",
+      "Day 2: North Goa Tour – Baga, Aguada",
+      "Day 3: South Goa Tour – Miramar, Basilica",
+      "Day 4: Checkout"
+    ],
+    "bestTime": "October - March"
+  },
+
+  "goa-budget": {
+    "id": "goa-budget",
+    "title": "Goa Budget Trip",
+    "destination": "Goa",
+    "image": "https://www.mistay.in/travel-blog/content/images/2020/06/cover-goa-mistay-hotel-rooms.jpg",
+    "price": 12999,
+    "originalPrice": 16999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Affordable Hotels",
+      "North Goa Group Tour",
+      "Beachside Cafes"
+    ],
+    "inclusions": ["Breakfast", "Group Tour"],
+    "exclusions": ["Airport Pickup"],
+    "itinerary": ["Day 1: Arrival", "Day 2: North Goa Tour", "Day 3: Checkout"],
+    "bestTime": "November - February"
+  },
+
+  "varkala-escape": {
+    "id": "varkala-escape",
+    "title": "Varkala Cliff Escape",
+    "destination": "Varkala",
+    "image": "https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/071_Varkala_10.jpg",
+    "price": 15999,
+    "originalPrice": 21999,
+    "days": 3,
+    "nights": 2,
+    "highlights": ["Cliffside Resort", "Black Beach", "Sunset View Points"],
+    "inclusions": ["Breakfast", "Cliff Resort Stay"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival + Cliff Walk",
+      "Day 2: Black Beach",
+      "Day 3: Checkout"
+    ],
+    "bestTime": "Nov - March"
+  },
+
+  "manali-adventure": {
+    "id": "manali-adventure",
+    "title": "Manali Adventure Expedition",
+    "destination": "Manali",
+    "image": "https://media.istockphoto.com/id/2221069098/photo/panoramic-view-of-wild-coniferous-forest-and-snowcapped-himalaya-mountains-scenic-landscape.jpg?s=612x612&w=0&k=20&c=H5n65I85N4caDPGV-ASHhkPXAlCnn9M6d1VJ81E7JP8=",
+    "price": 18999,
+    "originalPrice": 25999,
+    "days": 5,
+    "nights": 4,
+    "highlights": [
+      "Solang Valley Adventure",
+      "Atal Tunnel Visit",
+      "Snow Activities"
+    ],
+    "inclusions": ["4-Night Stay", "Breakfast + Dinner", "Private Cab"],
+    "exclusions": ["Adventure Activity Charges"],
+    "itinerary": [
+      "Day 1: Arrival + Mall Road",
+      "Day 2: Solang Valley",
+      "Day 3: Atal Tunnel",
+      "Day 4: Kullu",
+      "Day 5: Checkout"
+    ],
+    "bestTime": "March - June"
+  },
+
+  "haridwar-spiritual": {
+    "id": "haridwar-spiritual",
+    "title": "Haridwar & Rishikesh  ",
+    "destination": "Haridwar",
+    "image": "https://itihaaskikhoj.in/wp-content/uploads/2024/10/Haridwar-For-Couples.jpg",
+    "price": 9999,
+    "originalPrice": 14999,
+    "days": 3,
+    "nights": 2,
+    "highlights": ["Ganga Aarti", "Lakshman Jhula", "Spiritual Temples"],
+    "inclusions": ["Accommodation", "Aarti Ceremony"],
+    "exclusions": ["Meals"],
+    "itinerary": [
+      "Day 1: Ganga Aarti",
+      "Day 2: Rishikesh Tour",
+      "Day 3: Checkout"
+    ],
+    "bestTime": "October - April"
+  },
+
+  "amritsar-golden": {
+    "id": "amritsar-golden",
+    "title": "Golden Temple Darshan Trip",
+    "destination": "Amritsar",
+    "image": "https://www.templedairy.in/wp-content/uploads/2016/02/808da9ac76c9273a40d5d56fdd7c49d7-2.jpg",
+    "price": 12999,
+    "originalPrice": 17999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Golden Temple",
+      "Wagah Border Ceremony",
+      "Heritage Walk"
+    ],
+    "inclusions": ["Hotel Stay", "Temple Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Golden Temple",
+      "Day 2: Wagah Border",
+      "Day 3: Checkout"
+    ],
+    "bestTime": "October - February"
+  },
+
+  "manali-snow-retreat": {
+    "id": "manali-snow-retreat",
+    "title": "Manali Snow Retreat",
+    "destination": "Manali, Himachal Pradesh",
+    "image": "https://media.istockphoto.com/id/1667343168/photo/various-views-of-the-sissu-valley.jpg?s=612x612&w=0&k=20&c=-4Eg1nLw4M785m0m23wlDUV4MgN3Wvh8WzRu6CAmToY=",
+    "price": 18500,
+    "originalPrice": 23999,
+    "days": 4,
+    "nights": 3,
+    "highlights": ["Snow Mountains", "Hadimba Temple", "Solang Valley"],
+    "inclusions": ["Breakfast", "Hotel Stay"],
+    "exclusions": ["Skiing", "Paragliding"],
+    "itinerary": [
+      "Day 1: Mall Road",
+      "Day 2: Solang Valley",
+      "Day 3: Snow Point",
+      "Day 4: Checkout"
+    ],
+    "bestTime": "Dec - Feb"
+  },
+
+  "ooty-green-escape": {
+    "id": "ooty-green-escape",
+    "title": "Ooty Green Hills Escape",
+    "destination": "Ooty, Tamil Nadu",
+    "image": "https://media.istockphoto.com/id/1281862857/photo/tea-gardens-in-the-foothills-of-western-ghat.jpg?s=612x612&w=0&k=20&c=O7tHTfTeEyI0KG5VvwaNYqS2eUEXoPz89ek0M9Js0cI=",
+    "price": 14500,
+    "originalPrice": 18999,
+    "days": 3,
+    "nights": 2,
+    "highlights": ["Tea Gardens", "Ooty Lake", "Botanical Garden"],
+    "inclusions": ["Breakfast", "Lake Visit"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Lake Ride",
+      "Day 2: Tea Factory",
+      "Day 3: Checkout"
+    ],
+    "bestTime": "Oct - April"
+  },
+
+  "darjeeling-tea-valley": {
+    "id": "darjeeling-tea-valley",
+    "title": "Darjeeling Tea Valley Trip",
+    "destination": "Darjeeling, West Bengal",
+    "image": "https://media.istockphoto.com/id/1077154796/photo/indian-pickers-crossing-tea-plantation-in-darjeeling-india.jpg?s=612x612&w=0&k=20&c=Ig6VuED3VLXT_7SAPmREqhvGtGC76_mAWIzpxpOrl90=",
+    "price": 22000,
+    "originalPrice": 28999,
+    "days": 5,
+    "nights": 4,
+    "highlights": ["Tiger Hill Sunrise", "Tea Gardens", "Toy Train"],
+    "inclusions": ["Hotel", "Breakfast"],
+    "exclusions": [],
+    "itinerary": [
+      "Day 1: Arrival",
+      "Day 2: Tiger Hill",
+      "Day 3: Tea Gardens",
+      "Day 4: Local Tour",
+      "Day 5: Checkout"
+    ],
+    "bestTime": "March - June"
+  }
+}

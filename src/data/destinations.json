@@ -1,0 +1,195 @@
+{
+  "beaches": {
+    "id": "beaches",
+    "title": "Beaches",
+    "image": "https://lp-cms-production.imgix.net/2024-12/GettyRF178407725.jpg?auto=format,compress&q=72&fit=crop",
+    "destinations": [
+      {
+        "id": "goa",
+        "name": "Goa",
+        "image": "https://images.unsplash.com/photo-1548783301-1a20a0c2535f?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "varkala",
+        "name": "Varkala",
+        "image": "https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/071_Varkala_10.jpg"
+      },
+      {
+        "id": "andaman",
+        "name": "Andaman",
+        "image": "https://images.unsplash.com/photo-1586165368502-1bad6f289d58?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "lakshadweep",
+        "name": "Lakshadweep",
+        "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "mountains": {
+    "id": "mountains",
+    "title": "Mountains",
+    "image": "https://images.squarespace-cdn.com/content/v1/5e8ee22524984c387cdaed27/f4ec0ded-9ff4-406e-8dd1-5f0fe74e48bf/Denali%2C+Alaska.jpg",
+    "destinations": [
+      {
+        "id": "manali",
+        "name": "Manali",
+        "image": "https://discoverkullumanali.in/wp-content/uploads/2020/11/Solang-valley-in-Manali.jpg"
+      },
+      {
+        "id": "shimla",
+        "name": "Shimla",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "ooty",
+        "name": "Ooty",
+        "image": "https://images.unsplash.com/photo-1618257038124-a5a4bb7a8a6c?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "darjeeling",
+        "name": "Darjeeling",
+        "image": "https://images.unsplash.com/photo-1608441714844-bc6f72b3161a?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "spiritual": {
+    "id": "spiritual",
+    "title": "Spiritual Destinations",
+    "image": "https://www.shutterstock.com/image-photo/big-buddha-wat-paknam-sunset-260nw-2263022481.jpg",
+    "destinations": [
+      {
+        "id": "haridwar",
+        "name": "Haridwar",
+        "image": "https://itihaaskikhoj.in/wp-content/uploads/2024/10/Haridwar-For-Couples.jpg"
+      },
+      {
+        "id": "amritsar",
+        "name": "Amritsar",
+        "image": "https://www.templedairy.in/wp-content/uploads/2016/02/808da9ac76c9273a40d5d56fdd7c49d7-2.jpg"
+      },
+      {
+        "id": "varanasi",
+        "name": "Varanasi",
+        "image": "https://images.unsplash.com/photo-1587474261914-029632a3be6a?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "rishikesh",
+        "name": "Rishikesh",
+        "image": "https://images.unsplash.com/photo-1623574162544-b89e0ee1e74d?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "luxury": {
+    "id": "luxury",
+    "title": "Luxury Resorts",
+    "image": "https://images.trvl-media.com/lodging/89000000/88650000/88646300/88646240/0c45301d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+    "destinations": [
+      {
+        "id": "goa-luxury",
+        "name": "Goa Luxury",
+        "image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/04/27/1126/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.jpg/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.16x9.jpg?imwidth=1920"
+      },
+      {
+        "id": "jaipur-palace",
+        "name": "Jaipur Royal Palace Stays",
+        "image": "https://images.unsplash.com/photo-1589396573232-c38d49a1e4dc?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "kerala-backwaters",
+        "name": "Kerala Backwater Resorts",
+        "image": "https://images.unsplash.com/photo-1560343090-f0409e92791e?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "adventure": {
+    "id": "adventure",
+    "title": "Adventure Trips",
+    "image": "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/ejgcq0acumqaosd7kl26?_a=BACADKGT",
+    "destinations": [
+      {
+        "id": "ladakh",
+        "name": "Ladakh",
+        "image": "https://images.unsplash.com/photo-1500534314209-a26db0f5b553?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "spiti",
+        "name": "Spiti Valley",
+        "image": "https://images.unsplash.com/photo-1598091450210-028f52e3f8cc?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "rann",
+        "name": "Rann of Kutch",
+        "image": "https://images.unsplash.com/photo-1577517689245-081a97d3e44c?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "honeymoon": {
+    "id": "honeymoon",
+    "title": "Honeymoon Destinations",
+    "image": "https://www.bruisedpassports.com/wp-content/uploads/2017/12/seychelles-accommodation-5-1024x684.jpg",
+    "destinations": [
+      {
+        "id": "kashmir",
+        "name": "Kashmir",
+        "image": "https://images.unsplash.com/photo-1500048993959-d6be9c8f52f7?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "coorg",
+        "name": "Coorg",
+        "image": "https://images.unsplash.com/photo-1566402182302-82a1c2e8dde5?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "munnar",
+        "name": "Munnar",
+        "image": "https://images.unsplash.com/photo-1591000867825-3ed78d8b29b5?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "wildlife": {
+    "id": "wildlife",
+    "title": "Wildlife Tours",
+    "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/4a/fe.jpg",
+    "destinations": [
+      {
+        "id": "ranthambore",
+        "name": "Ranthambore",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "jimcorbett",
+        "name": "Jim Corbett",
+        "image": "https://images.unsplash.com/photo-1554532491-8647d3764819?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "bandhavgarh",
+        "name": "Bandhavgarh",
+        "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+
+  "desert": {
+    "id": "desert",
+    "title": "Desert Experiences",
+    "image": "https://desertbuggyrental.com/wp-content/uploads/2024/10/Private-desert-safari-Dubai-1.jpg",
+    "destinations": [
+      {
+        "id": "jaisalmer",
+        "name": "Jaisalmer",
+        "image": "https://images.unsplash.com/photo-1545569341-b34aac6466c3?w=1200&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "pushkar",
+        "name": "Pushkar",
+        "image": "https://images.unsplash.com/photo-1595683524717-ed3ba5f5b5f5?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  }
+}
