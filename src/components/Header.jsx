@@ -55,7 +55,7 @@ export default function Header() {
 
           <div className="flex items-center space-x-2">
             <img
-              src="/assets/Anandlogo.png"
+              src="/assets/Anandlogo.jpeg"
               alt="Logo"
               className="w-8 h-10 md:w-10 md:h-12 object-contain"
             />

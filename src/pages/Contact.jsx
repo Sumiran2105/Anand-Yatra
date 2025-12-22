@@ -315,7 +315,8 @@ export default function ContactPremium() {
                         Email
                       </p>
                       <p className="text-xs sm:text-sm text-gray-600 mt-0.5 break-words">
-                        support@anandyatra.com
+                        info@anandgroup.org
+ 
                       </p>
                     </div>
                   </div>

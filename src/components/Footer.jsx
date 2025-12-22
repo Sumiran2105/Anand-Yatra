@@ -212,7 +212,7 @@ const Footer = () => {
                   <div className="relative">
                     <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-white shadow-lg flex items-center justify-center transition-transform duration-300 hover:scale-105 mr-3 overflow-hidden">
                       <img
-                        src="assets/Anandlogo.png"
+                        src="assets/Anandlogo.jpeg"
                         alt="Anand Yatra Logo"
                         className="w-9 h-9 sm:w-12 sm:h-12 object-contain"
                       />
@@ -332,7 +332,8 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <FaEnvelope className="w-4 h-4 text-orange-400 flex-shrink-0" />
-                  <span className="text-gray-300">info@anandyatra.com</span>
+                  <span className="text-gray-300">info@anandgroup.org
+ </span>
                 </div>
               </div>
             </div>
