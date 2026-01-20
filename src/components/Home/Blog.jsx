@@ -44,7 +44,7 @@ export default function Blog() {
 
   return (
    
-    <section className="relative w-full py-20 sm:py-24 bg-white overflow-hidden">
+    <section className="relative w-full py-10 sm:py-10 bg-white overflow-hidden">
       {/* BLOG CARDS */}
       <section className="max-w-7xl mx-auto mt-16">
 

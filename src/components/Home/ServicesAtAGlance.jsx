@@ -2,7 +2,7 @@ import { Plane, Hotel, Map, Layers, Headphones } from "lucide-react";
 
 export default function ServicesAtAGlance() {
   return (
-    <section className="relative w-full py-20 sm:py-16 bg-white overflow-hidden">
+    <section className="relative w-full py-10 sm:py-10 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         {/* Header */}

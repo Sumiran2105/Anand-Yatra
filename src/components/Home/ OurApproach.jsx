@@ -3,7 +3,7 @@ import { FaClipboardList, FaRoute, FaRegSmileBeam } from "react-icons/fa";
 
 export default function OurApproach() {
   return (
-    <section className="relative w-full py-20 sm:py-24 bg-white overflow-hidden">
+    <section className="relative w-full py-10 sm:py-12 bg-white overflow-hidden">
 
       {/* Premium ambient background */}
       <motion.div
@@ -41,7 +41,7 @@ export default function OurApproach() {
             className="mx-auto mt-6 h-[3px] bg-blue-300 rounded-full"
           />
 
-          <p className="mt-10 text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed">
+          <p className="mt-10 text-md sm:text-lg md:text-xl text-gray-700 leading-relaxed">
             At Anand Yatra, we believe travel should feel effortless, clear, and
             perfectly organized. Our team takes complete responsibility for
             planning your entire journey from booking your travel tickets to
@@ -51,7 +51,7 @@ export default function OurApproach() {
         </motion.div>
 
         {/* ---------------- Core Value Highlights ---------------- */}
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-20">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-14">
 
           {[
             {
@@ -117,7 +117,7 @@ export default function OurApproach() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
-          className="mt-32 text-center"
+          className="mt-14 text-center"
         >
           <p className="text-2xl sm:text-3xl font-semibold text-blue-900">
             Travel becomes easier. Experiences become richer.

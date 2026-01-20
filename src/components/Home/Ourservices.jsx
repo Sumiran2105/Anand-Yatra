@@ -65,7 +65,7 @@ export default function FeaturesSection() {
 
   return (
     
-   <section className="relative w-full py-15 sm:py-16 bg-white overflow-hidden">
+   <section className="relative w-full py-10 sm:py-12 bg-white overflow-hidden">
 
       {/* HEADING WITH SAME COLORS YOU GAVE */}
      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-800 text-center mb-12">

@@ -26,7 +26,7 @@ const features = [
 
 const CompanyIntro = () => {
   return (
-    <section className="relative w-full py-20 sm:py-24 bg-white overflow-hidden">
+    <section className="relative w-full py-20 sm:py-14 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-800 text-center mb-12">
 Why Traveling With Us Feels Effortless

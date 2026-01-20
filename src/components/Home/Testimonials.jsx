@@ -39,7 +39,7 @@ export default function GlassTestimonialSlider() {
   const current = testimonials[index];
 
   return (
-    <section className="relative w-full py-20 sm:py-24 bg-white overflow-hidden">
+    <section className="relative w-full py-8 sm:py-6 bg-white overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute inset-0 flex justify-center pointer-events-none">
         <div className="w-[600px] h-[600px] bg-blue-100/40 blur-3xl rounded-full mt-20" />
