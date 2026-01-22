@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route,  } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
 import Layout from "./components/Layout";
@@ -24,46 +24,44 @@ import SignUp from "./components/Signup";
 import Destinations from "./components/Destinations";
 import CategoryPlaces from "./components/CategoryPlaces";
 import PlaceDetails from "./components/PlaceDetails";
-import { Scroll } from "lucide-react";
+
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
-        <ScrollToTop />
-        <Toaster position="top-center" reverseOrder={false} />
+      <ScrollToTop />
+      <Toaster position="top-center" reverseOrder={false} />
 
-        <Routes>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/trips" element={<Trips />} />
+          <Route path="/trip/:id" element={<TripDetails />} />
+          <Route path="/booking/:id" element={<BookingForm />} />
+          <Route path="/payment" element={<PaymentPage />} />
+          <Route path="/success" element={<SuccessPage />} />
 
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/trips" element={<Trips />} />
-            <Route path="/trip/:id" element={<TripDetails />} />
-            <Route path="/booking/:id" element={<BookingForm />} />
-            <Route path="/payment" element={<PaymentPage />} />
-            <Route path="/success" element={<SuccessPage />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/my-bookings" element={<MyBookings />} />
 
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/my-bookings" element={<MyBookings />} />
+          {/* Destinations */}
+          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/category/:categoryId" element={<CategoryPlaces />} />
+          <Route
+            path="/category/:categoryId/:placeId"
+            element={<PlaceDetails />}
+          />
 
-            {/* Destinations */}
-            <Route path="/destinations" element={<Destinations />} />
-            <Route path="/category/:categoryId" element={<CategoryPlaces />} />
-            <Route
-              path="/category/:categoryId/:placeId"
-              element={<PlaceDetails />}
-            />
+          {/* Auth */}
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
 
-            {/* Auth */}
-            <Route path="/signin" element={<SignIn />} />
-            <Route path="/signup" element={<SignUp />} />
-
-            {/* NEW PAGES */}
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
-        </Routes>
-      
+          {/* Pages */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
     </>
   );
 }
