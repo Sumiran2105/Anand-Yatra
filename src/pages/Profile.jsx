@@ -3,6 +3,7 @@ import React, {
   useEffect,
   useRef,
   useLayoutEffect,
+  useMemo,
 } from "react";
 import { useAuth } from "../auth/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
@@ -14,14 +15,7 @@ import {
   Edit3,
   Heart,
   Clock,
-  CheckCircle,
   User,
-  Pencil,
-  KeyRound,
-  CalendarCheck,
-  CreditCard,
-  UsersRound,
-  LifeBuoy,
 } from "lucide-react";
 
 import { getWishlist, removeFromWishlist } from "../utils/wishlist";
@@ -33,13 +27,15 @@ export default function Profile() {
   const [tab, setTab] = useState("profile");
   const [wishlistState, setWishlistState] = useState([]);
 
-  const tabRefs = {
-    profile: useRef(null),
-    upcoming: useRef(null),
-    past: useRef(null),
-    cancelled: useRef(null),
-    wishlist: useRef(null),
-  };
+  // ✅ Memoized tab refs (FIXES hook dependency error)
+  const tabRefs = useMemo(
+    () => ({
+      profile: React.createRef(),
+      upcoming: React.createRef(),
+      wishlist: React.createRef(),
+    }),
+    []
+  );
 
   const underlineRef = useRef(null);
 
@@ -74,12 +70,6 @@ export default function Profile() {
     (b) => b.status === "active" && new Date(b.date) >= today
   );
 
-  const past = myBookings.filter(
-    (b) => b.status === "active" && new Date(b.date) < today
-  );
-
-  const cancelled = myBookings.filter((b) => b.status === "cancelled");
-
   function cancelBooking(bookingId) {
     const updated = allBookings.map((b) =>
       b.bookingId === bookingId ? { ...b, status: "cancelled" } : b
@@ -94,18 +84,7 @@ export default function Profile() {
     removeFromWishlist(id);
     setWishlistState(getWishlist());
 
-    toast.custom(
-      () => (
-        <div className="flex items-center gap-3 bg-white border shadow-lg rounded-xl px-4 py-3">
-          <span className="text-xl">💔</span>
-          <div>
-            <p className="font-bold text-gray-800">Removed from Wishlist</p>
-            <p className="text-gray-600 text-sm">Item has been removed.</p>
-          </div>
-        </div>
-      ),
-      { duration: 2000 }
-    );
+    toast.success("Removed from wishlist");
   }
 
   const tabAnimation = {
@@ -117,17 +96,11 @@ export default function Profile() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-20">
       {/* TAB NAV */}
-      <div className="relative flex items-center gap-6 sm:gap-12 border-b pb-3 overflow-x-auto px-4">
+      <div className="relative flex gap-10 border-b pb-3">
         {[
           { id: "profile", label: "Profile", icon: <User size={18} /> },
           { id: "upcoming", label: "Upcoming", icon: <Clock size={18} /> },
-          { id: "past", label: "Past Trips", icon: <CheckCircle size={18} /> },
-          { id: "cancelled", label: "Cancelled", icon: <Trash2 size={18} /> },
-          {
-            id: "wishlist",
-            label: "Wishlist",
-            icon: <Heart size={18} className="text-red-500" />,
-          },
+          { id: "wishlist", label: "Wishlist", icon: <Heart size={18} /> },
         ].map((t) => (
           <button
             key={t.id}
@@ -194,29 +167,41 @@ export default function Profile() {
 
       {/* UPCOMING */}
       {tab === "upcoming" && (
-        <motion.div {...tabAnimation} className="mt-10 grid lg:grid-cols-3 sm:grid-cols-2 gap-8">
-          {upcoming.map((b) => (
-            <div key={b.bookingId} className="bg-white rounded-3xl shadow p-6">
-              <img src={b.image} alt={b.title} className="h-48 w-full rounded-xl object-cover" />
-              <h4 className="mt-3 text-xl font-bold">{b.title}</h4>
-              <button
-                onClick={() => cancelBooking(b.bookingId)}
-                className="mt-4 w-full bg-red-100 text-red-600 py-2 rounded-xl font-bold"
-              >
-                Cancel
-              </button>
-            </div>
-          ))}
+        <motion.div {...tabAnimation} className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {upcoming.length === 0 ? (
+            <p className="text-gray-500">No upcoming trips.</p>
+          ) : (
+            upcoming.map((b) => (
+              <div key={b.bookingId} className="bg-white rounded-3xl shadow p-6">
+                <img
+                  src={b.image}
+                  alt={b.title}
+                  className="h-48 w-full rounded-xl object-cover"
+                />
+                <h4 className="mt-3 text-xl font-bold">{b.title}</h4>
+                <button
+                  onClick={() => cancelBooking(b.bookingId)}
+                  className="mt-4 w-full bg-red-100 text-red-600 py-2 rounded-xl font-bold"
+                >
+                  <Trash2 size={16} /> Cancel
+                </button>
+              </div>
+            ))
+          )}
         </motion.div>
       )}
 
       {/* WISHLIST */}
       {tab === "wishlist" && (
-        <motion.div {...tabAnimation} className="mt-10 grid lg:grid-cols-3 sm:grid-cols-2 gap-8">
+        <motion.div {...tabAnimation} className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {wishlistState.map((item) => (
             <Link key={item.id} to={`/trip/${item.id}`}>
               <div className="bg-white rounded-3xl shadow overflow-hidden">
-                <img src={item.image} alt={item.title} className="h-48 w-full object-cover" />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="h-48 w-full object-cover"
+                />
                 <div className="p-5">
                   <h3 className="font-bold text-xl">{item.title}</h3>
                   <button
